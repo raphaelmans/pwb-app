@@ -1,0 +1,36 @@
+{
+  "name": "pwb-state-detection",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.8",
+    "@mantine/core": "^6.0.10",
+    "@mantine/form": "^6.0.10",
+    "@mantine/hooks": "^6.0.10",
+    "@types/base-64": "^1.0.0",
+    "@types/node": "20.1.0",
+    "@types/react": "18.2.5",
+    "@types/react-dom": "18.2.4",
+    "axios": "^1.4.0",
+    "base-64": "^1.0.0",
+    "eslint": "8.40.0",
+    "eslint-config-next": "13.4.1",
+    "next": "13.4.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-dropzone": "^14.2.3",
+    "react-webcam": "^7.0.1",
+    "swr": "^2.1.5",
+    "typescript": "5.0.4",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/uuid": "^9.0.1"
+  }
+}

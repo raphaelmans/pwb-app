@@ -1,0 +1,18 @@
+-- Create Batch table
+CREATE TABLE Batch (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    date TIMESTAMP,
+    batch_name VARCHAR(255),
+    product_model VARCHAR(255),
+    department VARCHAR(255),
+    total_items INT
+) AUTO_INCREMENT=1;
+
+CREATE TABLE ClassificationResult (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    class_name VARCHAR(10),
+    batch_id INT,
+    created_at TIMESTAMP,
+    probability FLOAT(5, 4) NOT NULL CHECK (probability >= 0 AND probability <= 1),
+    FOREIGN KEY (batch_id) REFERENCES Batch(id)
+) AUTO_INCREMENT=1;
