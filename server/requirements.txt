@@ -5,9 +5,9 @@ typing
 sqlalchemy
 mysql-connector-python==8.0.32
 mysqlclient
-pymsql
+PyMySQL
 cryptography
-pillow
+Pillow
 torch
 torchvision
 opencv-python
